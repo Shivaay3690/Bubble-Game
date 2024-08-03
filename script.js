@@ -1,7 +1,6 @@
-var Timer = 6;
+var Timer = 60;
 var score = 0;
 var hitrn = 0;
-
 
 function increaseScore(){
 score += 10;
@@ -50,4 +49,3 @@ document.querySelector('#pbtm').addEventListener("click", function(dets){
  setTimer();
  getNewHit();
  increaseScore();
-   
